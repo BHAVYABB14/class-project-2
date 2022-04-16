@@ -28,7 +28,7 @@ function modelLoaded()
 function check()
 {
     img = document.getElementById("captured_image");
-    classifier.clasify(img,gotresult);
+    classifier.classify(img,gotresult);
 }
 
 function gotresult(error,results){
